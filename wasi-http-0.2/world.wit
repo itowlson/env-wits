@@ -1,0 +1,5 @@
+package spin:wasi-http@0.2.0;
+
+world http-trigger {
+    include wasi:http/proxy@0.2.0;
+}
