@@ -1,0 +1,13 @@
+package spin:cli@2.77.0;
+
+world trigger-http {
+  include fermyon:spin/platform-rc20231018@2.0.0;
+  include fermyon:spin/platform@2.0.0;
+  export wasi:http/incoming-handler@0.2.0;
+}
+
+world trigger-http-rc20231018 {
+  include fermyon:spin/platform-rc20231018@2.0.0;
+  include fermyon:spin/platform@2.0.0;
+  export wasi:http/incoming-handler@0.2.0-rc-2023-10-18;
+}
